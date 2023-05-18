@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    
+    
+    
+    header{
+        
+        background: url(image/Background\(header\).jpg)no-repeat scroll center ;
+        background-size: cover;
+        padding: 100px;
+        margin-top: 0px;
+        width: 1300px;
+        
+       
+    }
+
+    #main{
+        background-image: url("image/background\(full\).png");
+        background-size: cover;
+        
+        
+    }
+
+
+    #pinky{
+        color: rgb(243, 6, 6);
+    }
+
+    #name{
+        letter-spacing: 500px;
+    }
+
+    nav{
+      background-color: black;
+    }
+    nav a{
+        margin-left: 170px;
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+      font-size: 18px;
+    }
+
+    nav a:hover{
+      background-color: teal;
+    }
+    nav a.active{
+      background-color: #094242;
+      
+    }
+    nav{
+        position: sticky;
+        top: 0;
+    }
+    
+   #des{
+         text-decoration: none;
+         text-align: center;
+         font-size: large;
+         border: 5px solid black;
+        background-color: rgb(212, 16, 49);
+         color: white;
+        
+    }
+
+    #fam{
+        display: flex;
+        background-color: hotpink;
+        border: 5px solid black;
+         border-radius: 10px ;
+        
+    }
+
+    .family{
+        width: 200px;
+        margin: 5px 200px;
+        font-size: large;
+    }
+
+    
+
+    .fb{
+        
+        margin: 30px 130px;
+        height: 100px;
+        width: 100px;
+        display: inline;
+    }
+    
+    
+
+    .social a :hover{
+        transform: rotate(360deg);
+        transition: 2s;
+    }
+    
+    .img{
+        margin: 30px;
+        height: 300px;
+        width: 300px;
+        display: inline;
+        border: 5px solid black;
+        border-radius: 20px;
+        box-shadow: 50%;
+        filter: grayscale();
+        
+    }
+    
+    #gallery a :hover{
+        transform: scale(1.1,1.1);
+        transition: 0.5s;
+        filter: none;
+    }
+
+    #audio audio{
+        margin-top: 50px;
+        margin-left: 140px;
+        background-color: red;
+    }
+
+    #video video{
+        width: 350px;
+        height: 250px;
+        border: 5px solid black;
+        margin-top: 50px;
+        margin-left: 100px;
+        border-radius: 20px;
+        box-shadow: 50%;
+        
+    }
+
+   
+    #footer {
+        text-align: center;
+        color: aliceblue;
+        background-color: rgb(33, 12, 113);
+        padding: 20px;
+    }
+    
+    
+    
+</style>
+
+</head>
+<body>
+    <header>
+        <div>
+            
+           <h1 id="pinky"> 
+            <marquee  direction="Rights"><span id="name" style="text-shadow: 50% red;">JYOTI</span> <span>JYOTI</span></marquee>
+           </h1>
+        </div>
+    </header>
+    
+    <div id="main">
+        <div id="des">
+          <p style="font-size: larger;">Life is an examination,
+            Every step of your life teach you an important lesson
+            keep the lession in your mind to crack the life exam... </p>
+        </div >
+
+        <nav >
+            <a href="#pinky">Home</a>
+            <a href="#Social">Social Media</a>
+            <a href="#galary">Gallery</a>
+            <a href="#audio">Audio</a>
+            <a href="#video">Video</a>
+        </nav>
+
+       
+        <div id="fam">
+             <div class="family">
+              <h2 style="color: rgb(32, 6, 147);">FAMILY</h2>
+                  <ul>
+                
+                    <li >Nandakishore Dehury</li>
+                    <li>Mother</li>
+                    <li>Jyotirmayee Dehury</li>
+                     <li>Leepika Dehury</li>
+                </ul>
+            </div>
+
+            <div class="family">
+                 <h2 style="color: rgb(32, 6, 147);">Friends</h2>
+                     <ul>
+                
+                         <li>Reshma</li>
+                        <li>Barsha</li>
+                        <li>Puja</li>
+                        <li>Aisha</li>
+                    </ul>
+            </div>
+        </div>
+
+        <div class="social" id="Social">
+             <h1 style="text-align: center ;color: crimson; text-shadow: 2px 2px 8px black;">SOCIAL   MEDIA </h1>
+    
+                <a  href="https://www.facebook.com/" target="_blank"><img class="fb" src="image/fb.svg" alt=""></a>
+                <a  href="https://www.instagram.com/" target="_blank"><img class="fb" src="image/insta.svg" alt=""></a>
+                <a  href="https://www.messenger.com/login/?next=https%3A%2F%2Fwww.messenger.com%2F" target="_blank"><img class="fb" src="image/messenger.svg" alt=""></a>
+                <a  href="https://www.whatsapp.com/" target="_blank"><img class="fb" src="image/WhatsApp.svg" alt=""></a>
+
+        </div>
+
+        <div class="social">
+            <a  href="https://mail.google.com/" target="_blank"><img class="fb"  src="image/gmail.svg" alt=""></a>
+            <a  href="https://www.youtube.com/" target="_blank"><img class="fb"  src="image/Utube.svg" alt=""></a>
+            <a  href="https://www.google.com/" target="_blank"><img class="fb"  src="image/Google.svg" alt=""></a>
+            <a  href="https://telegram.org/" target="_blank"><img class="fb"  src="image/telegram.svg" alt=""></a>
+        </div>
+
+        <div class="social">
+                <a  href="https://www.amazon.in/" target="_blank"><img class="fb" src="image/amazon.png" alt=""></a>
+                <a  href="https://www.flipkart.com/" target="_blank"><img class="fb" src="image/flipkart.png" alt=""></a>
+                <a  href="https://www.myntra.com/" target="_blank"><img class="fb" src="image/myntra.svg" alt=""></a>
+                <a  href="https://www.jiomart.com/" target="_blank"><img class="fb" src="image/JioMart.svg" alt=""></a>
+
+        </div>
+       
+        
+        
+        <div id="gallery" >
+            <marquee  direction="Rights" style="color:rgb(8, 165, 238); font-size: xx-large; word-spacing: 500px; text-shadow: 2px 2px 10px rgb(6, 181, 229);">GALLERY GALLERY GALLERY</marquee>
+   
+               <a  href="https://www.instagram.com/p/CkFrfzqBCWa/" target="_blank"><img class="img" src="image/j1.jpg" alt=""></a>
+               <a  href="https://www.instagram.com/p/CkIVcyNBSZI/" target="_blank"><img class="img" src="image/j2.jpg" alt=""></a>
+               <a  href="https://www.instagram.com/p/CkXm4FHJYM_/" target="_blank"><img class="img" src="image/j3.jpg" alt=""></a>
+               <a  href="https://www.instagram.com/p/Ce0gzYohvyU/" target="_blank"><img class="img" src="image/j4.jpg" alt=""></a>
+
+       </div>
+
+       <div id="audio">
+            <marquee  direction="Rights" style="color:rgb(142, 8, 238); font-size: xx-large; word-spacing: 400px; margin-top: 50px;text-shadow: 2px 2px 1px rgb(72, 6, 213);">AUDIO AUDIO AUDIO</marquee>
+
+            <div style="display: inline;">
+                <audio controls>
+                    <source src="image/jaudio1.webm" type="audio/mp3">
+                 </audio>
+
+                 <audio controls>
+                    <source src="image/jaudio2.webm" type="audio/mp3">
+                 </audio>
+                 <audio controls>
+                    <source src="image/jaudio3.webm"  type="audio/mp3">
+                 </audio>
+            </div>
+
+            <br>
+
+            <div style="display: inline;">
+                <audio controls>
+                    <source src="image/jaudio4.webm" type="audio/mp3">
+                 </audio>
+
+                 <audio controls>
+                    <source src="image/jaudio5.webm" type="audio/mp3">
+                 </audio>
+                 <audio controls>
+                    <source src="image/jaudio6.webm"  type="audio/mp3">
+                 </audio>
+            </div>
+
+       </div>
+
+       <div id="video">
+            <marquee  direction="Rights" style="color:rgb(238, 8, 200); font-size: xx-large; word-spacing: 350px; margin-top: 50px;text-shadow: 2px 2px 10px rgb(143, 5, 136);">VIDEO VIDEO VIDEO</marquee>
+
+            <div style="display: inline;">
+                <video controls>
+                    <source src="image/jvideo1.mp4" type="video/mp4">
+                </video>
+
+                <video controls>
+                    <source src="image/jvideo2.mp4" type="video/mp4">
+                </video>
+                <video controls>
+                    <source src="image/jvideo3.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <br>
+
+            <div style="display: inline;">
+                <video controls>
+                    <source src="image/jvideo4.mp4" type="video/mp4">
+                </video>
+
+                <video controls>
+                    <source src="image/jvideo5.mp4" type="video/mp4">
+                </video>
+                <video controls>
+                 <source src="image/jvideo6.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+            
+
+        </div>
+        
+        <div id="last" >
+            <h1> </h1>
+            <h1>. </h1>
+        </div>
+
+        
+        
+
+        <div id="footer">
+            <small style="word-spacing: 5px;"> Jay & Jyo</small>
+            <br>
+            <small style="word-spacing: 5px;">JAY  @Technologies</small>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
